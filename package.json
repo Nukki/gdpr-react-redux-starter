@@ -2,11 +2,11 @@
   "name": "gdpr_helper",
   "version": "1.0.0",
   "description": "Boilerplate app that shows different content to EU users",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "mon": "nodemon server.js"
+    "mon": "nodemon server/index.js"
   },
   "keywords": [
     "node",
@@ -17,6 +17,7 @@
   "author": "Nikki Jack",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "request-ip": "^2.0.2"
