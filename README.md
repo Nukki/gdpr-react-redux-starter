@@ -50,3 +50,8 @@ There are three components in `app/components/` you should pay attention to.
 2. Connect from IP address outside of EU 
 ![alt text](screenshots/not_from_eu.png "Browser from outside EU")
 Feedback welcome!
+
+## TODO
+* Unit testing
+* Refactor routing and redux, possibly with [`redux-little-router`](https://github.com/FormidableLabs/redux-little-router#wiring-up-the-boilerplate)
+
