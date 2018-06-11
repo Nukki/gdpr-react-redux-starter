@@ -39,7 +39,7 @@ There are three components in `app/components/` you should pay attention to.
 * `<Home />` is rendered to users with non-EU IP address. `RegularHome.js` is where components(code) for non-EU users will go
 
 
-## Demo
+## Demo / PoC
 
 ### Here is what you will see after deplying this app on heroku:
 
@@ -49,3 +49,4 @@ There are three components in `app/components/` you should pay attention to.
 ***
 2. Connect from IP address outside of EU 
 ![alt text](screenshots/not_from_eu.png "Browser from outside EU")
+Feedback welcome!
