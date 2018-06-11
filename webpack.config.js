@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 
 module.exports =  {
-  mode: 'production',
+  mode: 'development',
   entry: './app/index.js',
   output: {
     path: __dirname + '/public',
@@ -16,18 +16,11 @@ module.exports =  {
         exclude: /node_modules/
       },
       {
-        test: /\.scss$/,
-        use: [{
-          loader: "style-loader"
-        }, {
-          loader: "css-loader", options: {
-            sourceMap: true
-          }
-        }, {
-          loader: "sass-loader", options: {
-            sourceMap: true
-          }
-        }]
+        test: /\.css$/,
+        use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" }
+        ]
       }
     ]
   }

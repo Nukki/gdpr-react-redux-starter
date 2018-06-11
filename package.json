@@ -1,20 +1,20 @@
 {
-  "name": "gdpr_helper",
+  "name": "gdpr_react_redux_starter",
   "version": "1.0.0",
-  "description": "Boilerplate app that shows different content to EU users",
+  "description": "Starter app that shows different content to EU users",
   "main": "index.js",
   "scripts": {
-    "start": " webpack && nodemon server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "mon": "nodemon server/index.js",
+    "start": "webpack && nodemon server/index.js",
     "build": "webpack",
     "build-watch": "webpack -w"
   },
   "keywords": [
     "node",
     "react",
+    "redux",
     "gdpr",
-    "boilerplate"
+    "boilerplate",
+    "starter"
   ],
   "author": "Nikki Jack",
   "license": "ISC",
@@ -24,6 +24,11 @@
     "express": "^4.16.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
     "request-ip": "^2.0.2"
   },
   "devDependencies": {
@@ -34,6 +39,7 @@
     "css-loader": "^0.28.11",
     "node-sass": "^4.9.0",
     "nodemon": "^1.17.5",
+    "redux-logger": "^3.0.6",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.12.0",
