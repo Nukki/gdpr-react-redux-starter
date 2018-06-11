@@ -1,10 +1,12 @@
 {
-  "name": "gdpr_react_redux_starter",
+  "name": "gdpr-react-redux-starter",
   "version": "1.0.0",
   "description": "Starter app that shows different content to EU users",
   "main": "index.js",
+  "repository": "git@github.com/Nukki/gdpr-react-redux-starter.git",
   "scripts": {
-    "start": "webpack && nodemon server/index.js",
+    "start": "webpack && node server/index.js",
+    "start-watch": "webpack && nodemon server/index.js",
     "build": "webpack",
     "build-watch": "webpack -w"
   },
@@ -27,7 +29,6 @@
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.0",
-    "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
     "request-ip": "^2.0.2"
   },
@@ -39,7 +40,6 @@
     "css-loader": "^0.28.11",
     "node-sass": "^4.9.0",
     "nodemon": "^1.17.5",
-    "redux-logger": "^3.0.6",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.12.0",

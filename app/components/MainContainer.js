@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import Home from './RegularHome';
 import EuropeanHome from './EuropeanHome';
 
+// once the "ip" object is available on props,
+// it shows a different component for EU and for everyone else
 class MainContainer extends Component {
   render() {
     const { ip } = this.props;
